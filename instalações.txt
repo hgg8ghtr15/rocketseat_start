@@ -9,3 +9,5 @@ instalando o pacotes no node
     npm install ejs
     npm install express
 
+configurando git
+    

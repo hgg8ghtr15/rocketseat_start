@@ -1,0 +1,64 @@
+
+/* 
+
+*/
+
+.pseudo_nth_of p:nth-of-type(2){
+    font-weight: bold;
+}
+
+
+.pseudo_nth_child p:nth-child(3){
+    font-weight: bold;
+}
+
+.child_odd_even li:nth-child(odd){
+    background-color: brown;
+}
+.child_odd_even li:nth-child(even){
+    background-color: blueviolet;
+}
+
+
+.botao_hover a{
+    background-color: black;
+    color: brown;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 15px;
+}
+.botao_hover a:hover{
+    background-color: rgb(95, 74, 74);
+}
+
+.input_hover input{
+    border-color: rgb(66, 41, 41);
+    color: brown;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 15px;
+}
+
+.input_requered:required{
+    background: rgb(240, 6, 6);
+}
+
+.input_disabled:disabled{
+    background-color: rgb(17, 45, 201);
+}
+
+.input_focused:focus{
+    background-color: rgb(17, 216, 66);
+}
+.input_hover:hover{
+    background-color: rgb(228, 18, 175);
+}
+
+
+

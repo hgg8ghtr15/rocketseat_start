@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px">
+        <caption>Tabela de empresa</caption>
+
+        <colgroup>
+            <col style="background-color: aquamarine;">
+            <col span="2" style="background-color: rgb(129, 185, 159);">
+            <col span="2" style="background-color: rgb(122, 151, 168);">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th scope="colgroup" colspan="2">Empresa 1</th>
+                <th scope="colgroup" colspan="2">Empresa 2</th>
+            </tr>
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Produto 1</th>
+                <td scope="row">50</td>
+                <td scope="row">25</td>
+                <td scope="row">100</td>
+                <td scope="row">25</td>
+            </tr>
+            <tr>
+                <th scope="row">Produto 2</th>
+                <td scope="row">100</td>
+                <td scope="row">100</td>
+                <td scope="row">50</td>
+                <td scope="row">25</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,1 @@
+module.exports = "Bem vindo Jovem "

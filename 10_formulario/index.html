@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Form action="" method="GET" id="myform">
+        <!-- http://teste.com.br/?name=fabio&email=email@.com.br -->
+        <fieldset >
+            <legend> Contato</legend>
+            <label for="nome">Nome</label>
+            <input type="text" name="" id="nome">
+
+            <label for="">
+                Label dentro
+                <input type="text" name="" id="">
+            </label>
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Data Lista</legend>
+            <label for="">Selecione as opções</label>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Internet Explorer">
+                <option value="Opera">
+                <option value="Safari">
+              </datalist>
+            
+        </fieldset>
+
+    </Form>
+
+    <fieldset disabled form="myform">
+        <legend> Saparado</legend>
+        <label for="">Separado da pagina</label>
+        <input type="text" name="" id="">
+    </fieldset>
+
+
+
+</body>
+</html>

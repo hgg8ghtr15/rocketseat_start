@@ -1,0 +1,36 @@
+*{
+    /* margin: 0; */
+}
+p, h1{
+    
+    color: red;
+    background-color: black;
+}
+
+#div_verde{
+    background-color:green;
+    border: 1px solid black;
+}
+
+.div1_teste{
+    border: 1px solid red;
+    width: 80px;
+    height: 80px;
+    margin: 50px;
+}
+
+.div2_teste{
+    border: 1px solid red;
+    width: 80px;
+    height: 80px;
+
+    margin: 0 auto;
+}
+
+.div3_teste{
+    border: 1px solid red;
+    width: 80px;
+    height: 80px;
+
+    margin: 100px 20px;
+}

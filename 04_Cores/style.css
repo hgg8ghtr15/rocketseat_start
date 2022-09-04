@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    margin: 0px;
+
+    /* height: 100px; */
+    border: 1px solid rgb(223, 17, 17);
+    background-color: rgb(45, 92, 99);
+    background-image: url(https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    background-attachment: center;
+}

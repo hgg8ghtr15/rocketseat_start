@@ -1,0 +1,21 @@
+.float_left{
+   float: left; 
+    height: 100px;
+   background-color: rgb(73, 54, 54);
+}
+
+.float_right{
+   float: right; 
+
+   background-color: rgb(54, 63, 73)
+}
+
+.crear_both{
+    clear: both;
+}
+
+.div_flex_box{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+}

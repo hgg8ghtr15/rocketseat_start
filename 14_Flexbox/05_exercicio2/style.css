@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    /* background-color: aqua; */
+    padding: .8rem;
+    gap: .8rem;
+    height: 100vh;
+}
+.container aside{
+    flex-grow: 1;
+    background-color: aqua;
+}
+.container main{
+    flex-grow: 2;
+    background-color: blueviolet;
+}

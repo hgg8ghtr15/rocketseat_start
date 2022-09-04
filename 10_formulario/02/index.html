@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- disabled -->
+    <!-- readonly -->
+    <label for="">Nome</label>
+    <input 
+    type="text" 
+    autocomplete="cc-name" 
+    autofocus 
+ 
+    value=""
+    
+    form="formulario_teste"
+    name=""
+    placeholder="Digite algo"
+    >
+
+    <br>
+    <label for="senha">Senha</label>
+    <input 
+    pattern="[0-9a-f]"
+    id="senha"
+    type="password"
+    form="formulario_teste"
+    minlength="5"
+    maxlength="8"
+    size="8"
+    required
+    autocomplete="new-password"
+    spellcheck="true"
+    >
+
+
+
+    <form action="" id="formulario_teste">
+        <br>
+        <label for="email">E-Mail</label>
+        <input 
+        type="email" 
+        name="" 
+        id=""
+        multiple
+        minlength="10"
+        maxlength="12"
+        >
+
+        <br>
+        
+        <label for="urlvalida">URL</label>
+        <input 
+        type="url" 
+        name="" 
+        id=""
+        >
+
+        <br>
+
+        <label for="">Cor</label>
+        <input 
+        type="color" 
+        name="" 
+        id="">
+        <br>
+        
+        <label for="Texte">Texte</label>
+        <input 
+        type="checkbox" 
+        name="valoraEmviado" 
+        id="Texte">
+        
+        <fieldset>
+            <legend>Teste de campos fields</legend>
+            <div>
+                <input 
+                type="checkbox" 
+                name="frutas" 
+                id="maca"
+                >
+                <label for="maca">Maça</label>
+            </div>
+            <div>
+                <input 
+                type="checkbox" 
+                name="frutas" 
+                id="pera"
+                >
+                <label for="pera">Pera</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hiden</legend>
+            <label for="">Oculto</label>
+            <input type="hidden">
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>Legenda do campos tipo rario</legend>
+            <label for="yes">Sim</label>
+            <input 
+            type="radio" 
+            name="cafe" 
+            id="yes"
+            value="yes"
+            >
+            <label for="nono">não</label>
+            <input 
+            type="radio" 
+            name="cafe" 
+            id="nono"
+            value="no"
+            >
+        </fieldset>
+
+        <fieldset>
+            <legend>Testo Grande</legend>
+            <label for="textogrande">Texto</label>
+            <textarea 
+            name="" 
+            wrap=""
+            id="textogrande" 
+            cols="30" 
+            rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Seletores</legend>
+            <label for="carselect">Qual valor</label>
+            <select name="carmodel" id="carselect">
+                <option value="1">Valor 1</option>
+                <option value="1">Valor 2</option>
+                <option value="1">Valor 3</option>
+            </select>
+            <br>
+            <label for="carselect">Escolha os animais.</label>
+            <select name="carmodel" id="carselect" multiple>
+                <optgroup label="Animais Voadores">
+                    <option value="1">Valor 1</option>
+                    <option value="1">Valor 2</option>
+                    <option value="1">Valor 3</option>
+                </optgroup>
+                <optgroup label="Animais Marinhos">
+                    <option value="1">Valor 1</option>
+                    <option value="1">Valor 2</option>
+                    <option value="1">Valor 3</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pesquisa</legend>
+            <datalist id="pesquisa">
+                <option value="1">Opção 1</option>
+                <option value="2">Opção 1</option>
+                <option value="3">Opção 1</option>
+            </datalist>
+            <input 
+            type="search" 
+            name="" 
+            id="" 
+            list="pesquisa"
+            aria-label="Subistitue o label"
+            >
+        </fieldset>
+
+        <fieldset>
+            <legend>Numeros</legend>
+            <input 
+            type="number" 
+            name="" 
+            id=""
+            step="10"
+            min="10"
+            max="20"
+            >
+        </fieldset>
+
+        <fieldset>
+            <legend>Ranger</legend>
+            <input type="range" 
+            name="" 
+            id=""
+            min="10"
+            max="100"
+            step="3"
+            
+            >
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+
+
+
+    </form>
+    <br>
+    <form 
+    action=""
+    type="submit"
+    enctype="multipart/form-data"
+    >
+        <label for="">Arquivos</label>
+        <input 
+        type="file" 
+        name="" 
+        id=""
+        accept=".doc"
+        multiple
+        >
+    </form>
+</body>
+</html>

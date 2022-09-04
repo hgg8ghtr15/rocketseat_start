@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+header{
+    padding: 4rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+    align-items: center;
+    /* justify-content: center */
+}
+
+ul li:nth-last-child(1){
+    background-color: blue;
+    color:aliceblue;
+    padding: .8rem;
+
+}

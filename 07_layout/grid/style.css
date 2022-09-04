@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    height:100vh;
+
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "main aside"
+        "footer footer"
+    ;
+    grid-template-rows: 80px 1fr 40px;
+    grid-template-columns: 1fr 120px;
+}
+
+header{
+    grid-area: header;
+    background-color:rgb(22, 165, 165)
+}
+main{
+    grid-area:main;
+    background-color:rgb(19, 11, 136)
+}
+aside{
+    grid-area:aside;
+    background-color:rgb(165, 132, 22)
+}
+footer{
+    grid-area:footer;
+    background-color:rgb(173, 46, 73)
+}

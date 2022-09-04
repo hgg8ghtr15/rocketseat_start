@@ -1,0 +1,11 @@
+.elemento_before li::before{
+    content: "+++ ";
+}
+
+.elemento_affected li::after{
+    content: " []";
+}
+
+p::first-line{
+    font-weight: bold;
+}

@@ -1,0 +1,68 @@
+comando opção argumento
+ls -lh /user/bin 
+
+
+terminal 
+    https://hyper.is/
+    theme
+    https://github.com/getomni/omni
+    
+    sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    sudo apt install git-core curl fonts-powerline
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+    https://medium.com/collabcode/hyper-no-windows10-instala%C3%A7%C3%A3o-configura%C3%A7%C3%A3o-integra%C3%A7%C3%A3o-vscode-cf80ad4a696d
+
+
+comando
+    # lista diretorio atual
+    pwd
+
+    # vai para home
+    ~
+
+
+node
+    node -v
+
+    npm init -y
+    npm install cfonts
+    npm update
+
+    npm run test
+
+    #instalação global
+    npm install pacote -g
+
+    #instalado versao especifica
+    npm install pacote@2.2.91
+
+    #localizando
+    npm root -g
+
+    #Desentalar o pacote node root
+    npm uninstall pacote -g
+
+    # ver ^2.29.1 muda apnas o 29.1
+    # ver ~2.29.1 muda apnas o 1
+    # ver * muda tudo
+
+    #ver versão dos pacote
+    npm outdated
+
+    #update versao de todos
+    npm update
+
+    #update todos os pacote
+    npm install pacote@latest
+    
+
+
+
+
+git 
+    .gitignore
+        node_modules/
+
+
+    

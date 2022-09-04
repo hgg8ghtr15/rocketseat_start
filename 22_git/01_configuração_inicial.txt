@@ -1,0 +1,97 @@
+Senha do ubunto
+    master
+    J6t2hybt26
+
+instaldando no ubunto 
+
+    sudo apt update
+    sudo apt install git
+    git --version
+
+
+comandos
+    git config --global user.name "Fabio Lucas Marconi"
+
+    git config --global user.email fabiolukascj@hotmail.com
+
+    git config --global color.ui true
+
+    git config --global core.editor "code -w"
+
+    git config --list
+
+    cat ~/.gitconfig
+
+---------------
+    git init
+
+    ls -a
+    ls -al .git
+
+    # Adicionar
+    git add .
+    git add *.txt
+    git commit -m "iniciando o commit"
+    
+    # Verificar Logs
+    git log
+    git log --oneline
+    git log --author=Fabio
+        :aq fecha
+        :wq salva 
+    git log --grep="iniciando"
+
+    git status
+
+    git rn --cached arquivo.txt
+    
+    git clone
+
+    # verifica os arquivos que foi modificado
+    git diff
+
+    git diff --staged
+
+    # Restalrando itens da memoria do sroes
+    git restore --staged arquivo.txt
+
+    #retira um arquivo
+    git rm arquivo.txt
+
+    # renomeia
+    git mv 
+
+    #restaura os arquivos
+    git restore file323235.txt 
+
+    #corrigir mensagem do commit
+    git commit --amend -m "Teste"
+
+    #restaura arquivo do comit
+    git checkout d00764964 -- file.txt
+    git revert 885cf1d
+
+
+    #delata arquivos 
+    git clean -f 
+
+    #verificar modificações no git
+    git show 75da29b5
+    git show 75da29b5 --color-words
+    git show 75da29b5 -- diretorio/*
+
+    #lista os arquivos do diretorio
+    ls -al
+
+    #repositorio remoto
+    git remote add origin git@github.com:hgg8ghtr15/rocketseat_start.git 
+    git remote -v
+
+    git branch -M main
+    git checkout -b master
+
+    git push -u origin main
+
+
+
+

@@ -1,0 +1,9 @@
+
+/* Primeiro filho da linta 
+    Sempre tem que ser o elemento que vc esta selecionando
+    tem que remover o H3 para funcionar
+    considera apenas o primeiro li
+*/
+ul li:first-child{
+    font-weight: bold;
+}

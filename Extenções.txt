@@ -1,0 +1,4 @@
+HTML Preview
+ctrl+k v
+
+Live Server

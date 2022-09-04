@@ -1,0 +1,28 @@
+const body_pai = document.querySelector("h1")
+console.log(body_pai)
+console.log(body_pai.parentNode)
+console.log(body_pai.parentElement)
+
+const body_pai2 = document.querySelector("body")
+console.log("Considera os espeçoes vazio")
+console.log(body_pai2.childNodes)
+console.log("Não Considera os espeçoes vazio")
+console.log(body_pai2.children)
+console.log("Considera os espeçoes vazio")
+console.log(body_pai2.firstChild)
+console.log("Não Considera os espeçoes vazio")
+console.log(body_pai2.firstElementChild)
+console.log("Considera os espeçoes vazio")
+console.log(body_pai2.lastChild)
+console.log("Não Considera os espeçoes vazio")
+console.log(body_pai2.lastElementChild)
+
+const header2 = document.querySelector(".header2")
+
+console.log("Pegando os elemetos irmão")
+console.log(header2)
+console.log(header2.nextSibling)
+console.log(header2.nextElementSibling)
+console.log(header2.previousSibling)
+console.log(header2.previousElementSibling)
+
