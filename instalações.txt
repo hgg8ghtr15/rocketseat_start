@@ -1,0 +1,11 @@
+instalando o node no ubuntu
+    sudo apt update
+    sudo apt install nodejs npm
+    nodejs --version
+
+
+instalando o pacotes no node    
+    npm init -y
+    npm install ejs
+    npm install express
+
