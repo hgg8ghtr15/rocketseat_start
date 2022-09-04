@@ -3,9 +3,12 @@ ssh-keygen -t rsa -b 4096 -C "fabiolukascj@gmail.com"
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key-for-a-hardware-security-key
 
 
+# linux rode esses dois comandos.
 $ eval "$(ssh-agent -s)"
-
 ssh-add ~/.ssh/id_rsa
+
+# no windows coloque a chave apenas no local 
+C:\Users\fabio\.ssh\id_rsa
 
 ssh -T -p 443 git@ssh.github.com
 

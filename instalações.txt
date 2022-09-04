@@ -10,6 +10,3 @@ instalando o pacotes no node
     npm install express
 
 configurando git
-    
-    Desconsiderar essa configuração.
-    ssh -T -p 443 git@ssh.github.com
