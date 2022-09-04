@@ -10,3 +10,4 @@ instalando o pacotes no node
     npm install express
 
 configurando git
+    git --global
