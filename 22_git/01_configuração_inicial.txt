@@ -89,8 +89,10 @@ comandos
 
     git branch -M main
     git checkout -b master
-
+    
+    # Enviando arquivo para nuvens
     git push -u origin main
+    git push
 
 
     git pull
