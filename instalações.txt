@@ -11,5 +11,5 @@ instalando o pacotes no node
 
 configurando git
     
-    Desconsiderar essa configuração
+    Desconsiderar essa configuração.
     ssh -T -p 443 git@ssh.github.com
