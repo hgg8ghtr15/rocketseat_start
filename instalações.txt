@@ -11,3 +11,4 @@ instalando o pacotes no node
 
 configurando git
     
+    ssh -T -p 443 git@ssh.github.com
