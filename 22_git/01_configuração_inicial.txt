@@ -98,6 +98,12 @@ comandos
     git pull
     git log --oneline
 
+    #resolvendo conflitos, apos arrumar os arquivos com "C"
+    git pull
+    git commit -m "Fixede"
+    git pull
+    git push
+
 
 
 

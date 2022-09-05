@@ -8,6 +8,9 @@ instalando o pacotes no node
     npm init -y
     npm install ejs
     npm install express
+    sudo npm install -g json-server
 
 configurando git
-    git --global
+    
+# json-server
+    

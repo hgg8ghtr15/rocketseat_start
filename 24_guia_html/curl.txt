@@ -1,0 +1,13 @@
+# Use agente
+    man curl
+
+#comando do curl
+    curl https://google.com
+    curl -i https://google.com
+    curl -v https://google.com
+    curl -x https://google.com -i
+
+    clear
+
+# DEV DOCS
+
