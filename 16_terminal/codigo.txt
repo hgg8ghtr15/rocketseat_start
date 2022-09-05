@@ -58,70 +58,11 @@ node
     
 
 
+
+
 git 
     .gitignore
         node_modules/
 
-Teminal comandos
-    cd
-
-    ls -i
-    
-    ls -l
-    ls -h
-
-    ls -a
-
-    ls -R
-    ls -S
-
-    file arquivo.txt
-    stat terminal.txt 
-
-    mkdir pasta
-    mkdir -p pasta/src
-
-    touch site ou arquivo
-
-    # copia
-        cp -r terminal.txt arquivo/
-
-    #move
-        mv site/terminal.txt site2/
-        mv site2/terminal.txt comando.txt
-
-    #Remover
-        rm -f arquivo
-        rm -r arquivo
-
-    # Coringa
-        mv site/term*
-        mv site/term?
-
-    #find (Pesquisa)
-        find. -type f -name "*.mp4"
-        find. -type d -name "pasta"
-
-    less ver o que tem 
-        less arquivos
-        cat arquivo
-
-    editar arquivo
-        nano arquivo.txt
-        Control + C
-    
-        vim arquivos
-        esc cancelar
-        a inserir
-        :wq sair salva
-        :w! sair
-
-    
-
-
-    
-
-
-    
 
     
