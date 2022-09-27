@@ -62,7 +62,7 @@
     align-items: flex-end;
     /* flex-direction: row; */
     /* flex-direction: row-reverse; */
-    flex-direction: column;
+    flex-direction:column;
     /* flex-direction: column-reverse; */
     justify-content:space-around;
 }
